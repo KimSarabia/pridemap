@@ -69,16 +69,10 @@ strong {
   color: #e5e5e5;
 }
 
-a {
-  transition: color 0.25s ease-in-out;
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
-  text-transform: uppercase;
+a.source-link {
+  color: #8e9fff;
   text-decoration: none;
-  color: #dff3fd;
-}
-
-a:visited {
-  color: #dff3fd;
+  margin-left: 4px;
 }
 
 li.active a, a:hover, a:active {
